@@ -60,15 +60,16 @@
   
   <div id="radio-player"></div>
 
-<script src="https://cdn.jsdelivr.net/npm/radiojs@latest/dist/radio.min.js"></script>
-<script>
-  new Radio({
-    element: document.getElementById('radio-player'),
-    title: 'Luxury Live Radio',
-    url: 'http://s11.myradiostream.com:25828/',
-    autoplay: false,
-  });
-</script>
+  <script src="https://cdn.jsdelivr.net/npm/radiojs@latest/dist/radio.min.js"></script>
+  <script>
+    new Radio({
+      element: document.getElementById('radio-player'),
+      title: 'Luxury Live Radio',
+      url: 'http://s11.myradiostream.com:25828/',
+      autoplay: false,
+      volume: 0.7
+    });
+  </script>
 
 </body>
 </html>
