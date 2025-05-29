@@ -58,11 +58,17 @@
 
   <h1>Luxury Live Radio</h1>
   
-  <div id="radio-player">
-    <audio controls crossorigin="anonymous">
-      <source src="http://s11.myradiostream.com:25828/" type="audio/mpeg">
-      Ваш браузер не поддерживает аудиоэлемент.
-    </audio>
-  </div>
+  <div id="radio-player"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/radiojs@latest/dist/radio.min.js"></script>
+<script>
+  new Radio({
+    element: document.getElementById('radio-player'),
+    title: 'Luxury Live Radio',
+    url: 'http://s11.myradiostream.com:25828/',
+    autoplay: false,
+  });
+</script>
+
 </body>
 </html>
