@@ -23,7 +23,6 @@
       height: auto;
       margin-bottom: 20px;
       margin-top: 30px;
-      filter: drop-shadow(0 0 8px #9a04cb);
     }
 
     h1 {
@@ -31,25 +30,16 @@
       font-weight: 900;
       letter-spacing: 2px;
       margin-bottom: 20px;
-      color: #c792ea;
-      text-shadow:
-        0 0 8px #9a04cb,
-        0 0 20px #9a04cb,
-        0 0 30px #c792ea,
-        0 0 40px #c792ea;
+      text-shadow: 0 0 10px #9a04cb; /* фиолетовая подсветка */
     }
 
     #radio-player {
-      box-shadow:
-        0 0 10px #9a04cb,
-        0 0 20px #c792ea,
-        0 0 30px #9a04cb;
+      box-shadow: 0 0 20px #9a04cb; /* фиолетовая подсветка */
       border-radius: 15px;
       padding: 15px 30px;
       background: rgba(255, 255, 255, 0.1);
       max-width: 400px;
       width: 100%;
-      margin-top: 10px;
     }
   </style>
 </head>
@@ -64,4 +54,7 @@
       <source src="http://s11.myradiostream.com:25828/;stream.mp3" type="audio/mpeg">
       <!-- <source src="http://s11.myradiostream.com:25828/stream" type="audio/mpeg"> -->
       Ваш браузер не поддерживает аудиоэлемент.
-    <
+    </audio>
+  </div>
+</body>
+</html>
